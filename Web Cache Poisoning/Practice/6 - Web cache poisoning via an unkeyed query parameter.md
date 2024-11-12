@@ -1,0 +1,2 @@
+Param Miner > Guess url parameters
+Si pones `?utm_content='><script>alert(1)</script>` que es un **unkeyed parameter**, cuando hagas la petición no hará `X-Cache: miss` sino hit, hay que esperar 35 segundos para que nuestro parámetro quede cacheado para otros usuarios.

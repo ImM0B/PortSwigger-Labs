@@ -1,0 +1,1 @@
+Pasar la request al intruder y escanear del 192.168.0.1 al 192.168.0.254 hasta hitear el panel de admin
