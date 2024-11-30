@@ -1,0 +1,2 @@
+Para saber la versión de graphql en uso y ver cosas que probar según la versión -> https://github.com/dolevf/graphw00f
+Si la introspección está habilitada -> https://github.com/APIs-guru/graphql-voyager

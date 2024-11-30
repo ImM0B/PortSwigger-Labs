@@ -1,0 +1,2 @@
+Interceptamos la request de cambio de correo, creamos un csrf poc con el csrf token fresco,dropeamos la request, lo enviamos a la víctima por el exploit server.
+Esto funciona porque el csrf token no está asociado a la cookie de cada usuario.
