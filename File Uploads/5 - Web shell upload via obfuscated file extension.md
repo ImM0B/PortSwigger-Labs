@@ -1,0 +1,1 @@
+Cambiamos el nombre del archivo a shell.php%00.png
