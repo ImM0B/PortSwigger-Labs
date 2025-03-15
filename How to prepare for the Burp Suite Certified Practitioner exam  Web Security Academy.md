@@ -41,3 +41,6 @@ The practice exams are designed to be a realistic test of all your web security 
 If you are unable to pass a practice exam, we strongly suggest that you work through the steps outlined in this guide again to further hone your skills.
 
 You have two hours to complete your practice exam, which contains one vulnerable application for you to exploit.
+
+
+https://javy26.medium.com/burp-suite-certified-practitioner-review-89ffa886bb7d
