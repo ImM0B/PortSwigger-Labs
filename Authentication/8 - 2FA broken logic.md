@@ -1,0 +1,1 @@
+Basicamente hay que cambiarl la cookie de `verify=wiener` por la de `verify=carlos` y lyego hacer fuerza bruta

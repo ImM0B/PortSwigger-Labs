@@ -1,0 +1,1 @@
+Cuando accedes a `https://0a5800e6049e1bc280257baf00ad0039.web-security-academy.net/my-account?id=carlos` te redirige, pero si capturas la request, puedes el home page de carlos.

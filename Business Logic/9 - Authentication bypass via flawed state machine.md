@@ -1,0 +1,1 @@
+Hay que dropear la request para seleccionar el rol, solo así podremos acceder al panel de administrador en `/admin` , ya que si no elegimos rol, por defecto se nos pone el de admin.

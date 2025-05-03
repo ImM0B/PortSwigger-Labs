@@ -1,0 +1,1 @@
+Después de hacer una compra válida vemos que se hace un `GET /cart/order-confirmation?order-confirmed=true` , si enviamos esto con algo que no podemos pagar en la cesta , entonces se confirmará la cesta.

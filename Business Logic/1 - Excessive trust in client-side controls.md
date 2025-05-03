@@ -1,0 +1,1 @@
+Al meter a la carta el producto: cambiamos el precio por 1 .
