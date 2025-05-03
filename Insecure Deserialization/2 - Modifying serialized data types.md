@@ -1,3 +1,4 @@
+2 propiedades, username y access token
 
 ```php
 O:4:"User":2:{s:8:"username";s:6:"wiener";s:12:"access_token";s:32:"mxjbh44njh5ym71pdvh8rxq3cn0v3pex";}
@@ -20,3 +21,5 @@ Cambiamos el objeto PHP :
 ```php
 O:4:"User":2:{s:8:"username";s:13:"administrator";s:12:"access_token";i:0;}
 ```
+
+Si en PHP se compara un string con un int 0 entonces el string se convierte a 0 y da true

