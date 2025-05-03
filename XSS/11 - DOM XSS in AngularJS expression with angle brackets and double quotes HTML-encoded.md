@@ -1,5 +1,7 @@
 https://youtu.be/QpQp2JLn6JA
 
+[Angular Sandbox Escape Cheatsheet · GitHub](https://gist.github.com/jeremybuis/38c01acae19fc2ac6959)
+
 AngularJS is a popular JavaScript library, which scans the contents of HTML nodes containing the `ng-app` attribute (also known as an AngularJS directive).
 
 Angular JS is deprecated and is going to be replace by Angular.
