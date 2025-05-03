@@ -1,0 +1,1 @@
+`Content-Type` to `image/jpeg` y subimos así el .php
